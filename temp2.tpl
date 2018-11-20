@@ -6,7 +6,7 @@
 <body>
 	<style>
 	div{
-		border: 2px;
+		border: 2px dotted;
 	    border-radius: 5px;
 	    background-color: white;
 	    padding: 5px;
