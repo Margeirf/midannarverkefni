@@ -47,7 +47,7 @@
     <h3><a href="/allt/{{x}}">{{x}}</a></h3>
     %end
     %for x in data['timestampPriceChanges']:
-        %print(x, end=' ')
+        %print(x, )
     <footer>
         <h4>{{x}}</h4>
     </footer>
