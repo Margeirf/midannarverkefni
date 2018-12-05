@@ -1,0 +1,17 @@
+        .flex-container{
+            width: 80%;
+            margin: 0 auto;
+        }
+	body {
+		background-color: white;
+		text-align: center;
+	}
+	.box{
+		font-family: arial, sans-serif;
+    	width: 300px;
+        height: 300px;
+		display: flex;
+        flex-direction: column;
+        border: 1 black solid;
+        float: left;
+}

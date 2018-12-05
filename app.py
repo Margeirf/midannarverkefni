@@ -7,6 +7,10 @@ with urllib.request.urlopen("http://apis.is/petrol") as url:
 def server_static(filename):
     return static_file(filename, root="./Myndir")
 
+@route('/static/<filename:path>')
+def static(filename):
+    return static_file(filename, root='/css/')
+
 @route('/')
 def index():
     return template("temp.tpl",data=data)
@@ -22,4 +26,4 @@ def allt2(company,name):
 def villa(error):
     return("Website not found")
 
-run(host='0.0.0.0',port=os.environ.get('PORT'))
+run(host='localhost', port=8080, debug=True, realoader=True)

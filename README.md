@@ -1,1 +1,1 @@
-# https://margeir-mid.herokuapp.com/
+# midannarverkefni
